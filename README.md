@@ -1,6 +1,5 @@
 # auth0-webhook-sample
 
-## Configure an Auth0 log stream
 Configure Auth0 to send log events to this webhook using an HTTP event stream.
 
 To create a new stream point to your deployed Express application, follow the instructions at auth0.com/docs/customize/log-streams/custom-log-streams. 
