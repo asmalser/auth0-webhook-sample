@@ -3,6 +3,10 @@ const got = require("got");
 module.exports = async (req, res, next) => {
   const { body, headers } = req;
 
+  console.log( JSON.stringify(headers) );
+
+  console.log( JSON.stringify(body) );
+
   if (!body || !Array.isArray(body)) {
     return res.sendStatus(400);
   }
